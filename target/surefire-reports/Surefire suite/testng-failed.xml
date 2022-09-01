@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.zoho.qa.testcases.ContactSalesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifypBoxTest"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.ContactSalesPageTest -->
+      <class name="com.zoho.qa.testcases.CustomersPageTest">
+        <methods>
+          <include name="selectProjectstablTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.CustomersPageTest -->
+      <class name="com.zoho.qa.testcases.SupportPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validatecreatesubmitrequestTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.SupportPageTest -->
+      <class name="com.zoho.qa.testcases.SigninPageTest">
+        <methods>
+          <include name="validatesignupimgTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.SigninPageTest -->
+      <class name="com.zoho.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateclickonlanguageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

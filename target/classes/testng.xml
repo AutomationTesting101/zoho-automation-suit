@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZohoAutomation">
+
+
+	<test name="Zoho Application Test Cases">
+		<classes>
+			<class name="com.zoho.qa.testcases.LandingPageTest"></class>
+			<class name="com.zoho.qa.testcases.SigninPageTest"></class>
+			<class name="com.zoho.qa.testcases.SupportPageTest"></class>
+			<class name="com.zoho.qa.testcases.CustomersPageTest"></class>
+			<class name="com.zoho.qa.testcases.ContactSalesPageTest"></class>
+		</classes>
+	</test>
+</suite>

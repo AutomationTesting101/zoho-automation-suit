@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 7, Errors: 0, Skipped: 9, Time elapsed: 655.161 s <<< FAILURE! - in TestSuite
+verifypBoxTest(com.zoho.qa.testcases.ContactSalesPageTest)  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: Box missing on the page. expected [true] but found [false]
+	at com.zoho.qa.testcases.ContactSalesPageTest.verifypBoxTest(ContactSalesPageTest.java:48)
+
+selectProjectstablTest(com.zoho.qa.testcases.CustomersPageTest)  Time elapsed: 0.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id='Automobile']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60b797533fa8c0b1f1ce395a0268e5f2, findElement {using=xpath, value=//li[@id='Automobile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56750/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60b797533fa8c0b1f1ce395a0268e5f2
+	at com.zoho.qa.testcases.CustomersPageTest.selectProjectstablTest(CustomersPageTest.java:44)
+
+validateclickonlanguageTest(com.zoho.qa.testcases.LandingPageTest)  Time elapsed: 0.022 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ebcdf00a3983c496b7e4df06e0fe0aa, actions {actions=[org.openqa.selenium.interactions.Sequence@5ef6fd7f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56797/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ebcdf00a3983c496b7e4df06e0fe0aa
+	at com.zoho.qa.testcases.LandingPageTest.validateclickonlanguageTest(LandingPageTest.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.zoho.qa.testcases.LandingPageTest.validateclickonlanguageTest(LandingPageTest.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@xpath='1']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ebcdf00a3983c496b7e4df06e0fe0aa, findElement {using=xpath, value=//span[@xpath='1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56797/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ebcdf00a3983c496b7e4df06e0fe0aa
+	at com.zoho.qa.testcases.LandingPageTest.validateclickonlanguageTest(LandingPageTest.java:77)
+
+validatesignupimgTest(com.zoho.qa.testcases.SigninPageTest)  Time elapsed: 0.02 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='overlapBanner']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59415fac062c7ef62602c71417bc46c6, findElement {using=xpath, value=//div[@class='overlapBanner']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57232/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59415fac062c7ef62602c71417bc46c6
+	at com.zoho.qa.testcases.SigninPageTest.validatesignupimgTest(SigninPageTest.java:41)
+
+validatecreatesubmitrequestTest(com.zoho.qa.testcases.SupportPageTest)  Time elapsed: 27.021 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='contactId']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc1de0edae9845abe2509a0169106fb6, findElement {using=xpath, value=//input[@id='contactId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58110}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58110/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc1de0edae9845abe2509a0169106fb6
+	at com.zoho.qa.testcases.SupportPageTest.validatecreatesubmitrequestTest(SupportPageTest.java:108)
+
+validatecreatesubmitrequestTest(com.zoho.qa.testcases.SupportPageTest)  Time elapsed: 32.789 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='contactId']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9725743452104e5a4338cf49e8a5e72, findElement {using=xpath, value=//input[@id='contactId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58388/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9725743452104e5a4338cf49e8a5e72
+	at com.zoho.qa.testcases.SupportPageTest.validatecreatesubmitrequestTest(SupportPageTest.java:108)
+
+validatecreatesubmitrequestTest(com.zoho.qa.testcases.SupportPageTest)  Time elapsed: 26.252 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='contactId']"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BCV-DT-028', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e0ba9ad1248dffd4603aaf12cb47419, findElement {using=xpath, value=//input[@id='contactId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58665/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e0ba9ad1248dffd4603aaf12cb47419
+	at com.zoho.qa.testcases.SupportPageTest.validatecreatesubmitrequestTest(SupportPageTest.java:108)
+

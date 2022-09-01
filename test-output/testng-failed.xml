@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZohoAutomation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Zoho Application Test Cases(failed)">
+    <classes>
+      <class name="com.zoho.qa.testcases.CustomersPageTest">
+        <methods>
+          <include name="selectProjectstablTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.CustomersPageTest -->
+      <class name="com.zoho.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateclickonlanguageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.LandingPageTest -->
+      <class name="com.zoho.qa.testcases.ContactSalesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifypBoxTest"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.ContactSalesPageTest -->
+      <class name="com.zoho.qa.testcases.SupportPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validatecreatesubmitrequestTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.SupportPageTest -->
+      <class name="com.zoho.qa.testcases.SigninPageTest">
+        <methods>
+          <include name="validatesignupimgTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.SigninPageTest -->
+    </classes>
+  </test> <!-- Zoho Application Test Cases(failed) -->
+</suite> <!-- Failed suite [ZohoAutomation] -->

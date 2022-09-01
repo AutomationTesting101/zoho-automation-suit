@@ -1,0 +1,6 @@
+com\zoho\qa\testcases\LandingPageTest.class
+com\zoho\qa\testcases\ContactSalesPageTest.class
+com\zoho\qa\testcases\RetryAnalyzer.class
+com\zoho\qa\testcases\SigninPageTest.class
+com\zoho\qa\testcases\CustomersPageTest.class
+com\zoho\qa\testcases\SupportPageTest.class
