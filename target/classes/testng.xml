@@ -11,8 +11,7 @@
 			<class name="com.zoho.qa.testcases.CustomersPageTest"></class>
 			<class name="com.zoho.qa.testcases.ContactSalesPageTest"></class>
 			<class name="com.zoho.qa.testcases.dummyPageTest"></class>
-				<class name="com.zoho.qa.testcases.ContactSalesPageTest"></class>
-			<class name="com.zoho.qa.testcases.dummyPageTest"></class>
+			
 		</classes>
 	</test>
 </suite>
