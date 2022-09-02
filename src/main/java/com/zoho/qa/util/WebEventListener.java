@@ -155,6 +155,10 @@ public class WebEventListener extends TestBase implements WebDriverListener {
 		// TODO Auto-generated method stub
 		
 	}
-
+    
+	public void unknownerror(String arg0, WebDriver arg1) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
